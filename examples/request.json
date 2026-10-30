@@ -1,0 +1,45 @@
+{
+  "question": "How many unique items are there?",
+  "evidence": "Count each item ID only once.",
+  "db_id": "demo",
+  "schema": {
+    "table_names_original": [
+      "items"
+    ],
+    "column_names_original": [
+      [
+        -1,
+        "*"
+      ],
+      [
+        0,
+        "id"
+      ],
+      [
+        0,
+        "name"
+      ]
+    ],
+    "column_types": [
+      "text",
+      "number",
+      "text"
+    ],
+    "primary_keys": [
+      1
+    ],
+    "foreign_keys": [],
+    "column_examples": [
+      [],
+      [
+        1,
+        2
+      ],
+      [
+        "pencil",
+        "book"
+      ]
+    ]
+  },
+  "train_examples": []
+}

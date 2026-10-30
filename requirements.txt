@@ -1,0 +1,2 @@
+openai>=1.40
+sqlglot==30.24.0
